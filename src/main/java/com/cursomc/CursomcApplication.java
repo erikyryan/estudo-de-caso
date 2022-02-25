@@ -1,8 +1,5 @@
 package com.cursomc;
 
-import java.text.SimpleDateFormat;
-import java.util.Arrays;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -30,6 +27,9 @@ import com.cursomc.repositories.ItemPedidoRepository;
 import com.cursomc.repositories.PagamentoRepository;
 import com.cursomc.repositories.PedidoRepository;
 import com.cursomc.repositories.ProdutoRepository;
+
+import java.text.SimpleDateFormat;
+import java.util.Arrays;
 
 @SpringBootApplication
 public class CursomcApplication implements CommandLineRunner{
